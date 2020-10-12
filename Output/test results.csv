@@ -1,0 +1,16 @@
+ANN,spam,0.936583079,{'MLP__activation': 'relu', 'MLP__alpha': 0.01, 'MLP__hidden_layer_sizes': (114,114, 114)}
+ANN,spam_fs,0.851382959,{'MLP__activation': 'relu', 'MLP__alpha': 3.1622776601683795e-05, 'MLP__hidden_layer_sizes': (114,114, 114)}
+DT,spam_fs,0.865628734,{'DT__alpha': 0, 'DT__class_weight': 'balanced', 'DT__criterion': 'gini'},,
+DT,spam,0.907448037,{'DT__alpha': 0, 'DT__class_weight': 'balanced', 'DT__criterion': 'entropy'},,
+SVM_RBF,spam_fs,0.872016437,{'SVM__alpha': 0.00031622776601683794, 'SVM__gamma_frac': 0.2, 'SVM__n_iter': 389},,
+SVM_RBF,spam,0.921142561,{'SVM__alpha': 0.01, 'SVM__gamma_frac': 1.8, 'SVM__n_iter': 389},,
+KNN,spam,0.900461865,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 7, 'KNN__weights': 'distance'},,
+Boost,adult,0.9365830785719306,{'Boost__base_estimator__alpha': 0.0316227766016838, 'Boost__n_estimators': 20}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}
+SVM_Lin,spam,0.9292773561037319,{'SVM__alpha': 0.00031622776601683794, 'SVM__n_iter': 389}

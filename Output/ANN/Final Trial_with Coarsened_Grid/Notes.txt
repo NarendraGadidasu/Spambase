@@ -1,0 +1,6 @@
+-> Relu performs much better than Logistic as seen in Grid Serach CV 
+-> Accuracy in Logistic many times falls to 0.5 after a certain alpha or throughout, find an explanation
+-> More number of layer and more number of units/laeye seems to be helping, as there is more to learn which is conistent with learning cureves wrt samples, which also indicate more learning is possible
+-> As samples increase both train and CV accuracy seems to increase upto 1500 samples, later train error seems to be constant (with a variation of decrease) while CV error keeps increasing. The model may hence benifit from more data
+-> It converges to optimal solution it can find with around 64, which means solution is being found in a reasonable time. Also, means max_iter need not be 2000 if early stopping was not set to true (save time)
+->As alpha goes above 0, both training and CV error are falling, which indicates that the increased alpha is interfering with learning of the model.
